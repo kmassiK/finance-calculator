@@ -1,3 +1,4 @@
+
 # Capstone Project - Variables and Control Structures
 
 # Use the input() function to prompt the user to enter either 'investement' or 'bond'.
