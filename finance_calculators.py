@@ -1,11 +1,3 @@
-# Capstone Project - Variables and Control Structures
-
-# Use the input() function to prompt the user to enter either 'investement' or 'bond'.
-# str.lower() is used to convert entries into lower cases, this will prevent errors if the user enters capital letters.
-# if - elif - else statements are used to work out different conditions and display outcomes according to user choices.
-#  the 1st if statement is nested as there're 2 conditions to choose from: 'simple' or 'compound' interest.
-# round() function is used to limit the output to 2 decimal point.
-
 
 # Capstone Project - Variables and Control Structures
 
@@ -20,9 +12,9 @@
 import math
 
 print("Welcome to the Finance Calculator!")
-print("Please Choose an option:")
-print("1 for Investment")
-print("2 for Bond")
+print("Choose an option:")
+print("1. Investment")
+print("2. Bond")
 
 def numeric_input(prompt):
     while True:
@@ -48,7 +40,7 @@ def calculate_bond(present_value, interest_rate, num_month):
 
 
 while True:
-    user_choice = input("Please enter the number corresponding to your choice: ")
+    user_choice = input("Enter the number corresponding to your choice: ")
 
     if user_choice == "1":
         user_deposit = numeric_input("Enter deposit amount: ")
@@ -75,3 +67,6 @@ while True:
 
     else:
         print("Error: Invalid choice. Please enter either '1' or '2'.")
+
+
+  
